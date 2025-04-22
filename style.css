@@ -14,7 +14,7 @@
     --bg-color: #1f242d;
     --second-bg-color: #323946;
     --text-color: #fff;
-    --main-color: pho;
+    --main-color: #0ef;
 }
 
 html{
@@ -100,7 +100,7 @@ span{
 }
 
 .home-img img{
-    width: 35vw;
+    width: 30vw;
     animation: floatImage 4s ease-in-out infinite;
 }
 
@@ -163,7 +163,7 @@ span{
 }
 
 .about-img img{
-    width: 35vw;
+    width: 30vw;
 }
 
 .heading{
