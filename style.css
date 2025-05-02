@@ -210,6 +210,7 @@ span{
     overflow: hidden;
     box-shadow: 0 0 1rem var(--second-bg-color);
     width: 300px;
+    height: auto;
     transition: transform 0.3s ease;
 }
 
@@ -256,11 +257,15 @@ span{
 }
 
 .project-layer h4{
-    font-size: 3rem;
+    font-size: 2rem;
+    color: rgb(36, 36, 36);
 }
 .project-layer p{
     font-size: 1.6rem;
+    font-weight: 600;
     margin: .3rem 0 1rem;
+    line-height: 1.9rem;
+    color: rgb(49, 49, 49);
 }
 
 .project-layer a{
