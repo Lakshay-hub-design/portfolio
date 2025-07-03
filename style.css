@@ -197,6 +197,7 @@ span{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     gap: 2.5rem;
 }
 
@@ -206,11 +207,12 @@ span{
     box-shadow: 0 0 1rem var(--second-bg-color);
     overflow: hidden;  */
     display: flex;
+    margin-top: 2rem;
     border-radius: 2rem;
     overflow: hidden;
     box-shadow: 0 0 1rem var(--second-bg-color);
-    width: 300px;
-    height: auto;
+    width: 360px;
+    height: 260px;
     transition: transform 0.3s ease;
 }
 
@@ -257,15 +259,15 @@ span{
 }
 
 .project-layer h4{
-    font-size: 2rem;
+    font-size: 3rem;
     color: rgb(36, 36, 36);
 }
 .project-layer p{
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     font-weight: 600;
     margin: .3rem 0 1rem;
     line-height: 1.9rem;
-    color: rgb(49, 49, 49);
+    color: rgb(14, 13, 13)
 }
 
 .project-layer a{
@@ -367,6 +369,10 @@ span{
     color: var(--second-bg-color);
 }
 
+
+body::-webkit-scrollbar {
+  display: none;
+}
 
 /* BREAKPOINTS */
 
