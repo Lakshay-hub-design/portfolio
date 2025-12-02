@@ -32,17 +32,18 @@ window.onscroll = () =>{
     navbar.classList.remove('active');
 };
 
-ScrollReveal({
+const sr = ScrollReveal({
     reset: true,
     distance: '70px',
     duration: 2000,
     delay: 200
 });
 
-ScrollReveal().reveal('.home-content, .heading', {origin: 'top'});
-ScrollReveal().reveal('.home-img, .project-box, .contact-box', {origin: 'bottom'});
-ScrollReveal().reveal('.home-content h1, .about-img', {origin: 'left'});
-ScrollReveal().reveal('.home-content p, .about-content', {origin: 'right'});
+sr.reveal('.home-content' , {origin: 'top'});
+sr.reveal('.skills-box', { origin: 'bottom', interval: 150 });
+sr.reveal('.home-img, .project-box, .contact-box', {origin: 'bottom'});
+sr.reveal('.home-content h1, .about-img', {origin: 'left'});
+sr.reveal('.home-content p, .about-content', {origin: 'right'});
 
 
 const typed = new Typed("#multitext", {
